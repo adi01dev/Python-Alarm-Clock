@@ -29,11 +29,11 @@ ringtones_list = ['Tune_1', 'Tune_2', 'Tune_3',
 
 # Ringtone Paths.
 ringtones_path = {
-    'Tune_1': 'D:/PROGRAMS/dabotics india/alarm clock/Ringtones/Tune_1.mp3',
-    'Tune_2': 'D:/PROGRAMS/dabotics india/alarm clock/Ringtones/Tune_2.mp3',
-    'Tune_3': 'D:/PROGRAMS/dabotics india/alarm clock/Ringtones/Tune_3.mp3',
-    'Tune_4': 'D:/PROGRAMS/dabotics india/alarm clock/Ringtones/Tune_4.mp3',
-    'Tune_5': 'D:/PROGRAMS/dabotics india/alarm clock/Ringtones/Tune_5.mp3'
+    'Tune_1': 'Ringtones/Tune_1.mp3',
+    'Tune_2': 'Ringtones/Tune_2.mp3',
+    'Tune_3': 'Ringtones/Tune_3.mp3',
+    'Tune_4': 'Ringtones/Tune_4.mp3',
+    'Tune_5': 'Ringtones/Tune_5.mp3'
 }
 
 
@@ -44,7 +44,7 @@ class Alarm_Clock:
         self.window.title("PyClock")
 
         # Update the path to your image file here
-        image_path = "D:/PROGRAMS/dabotics india/alarm clock/Images/image_1.jpg"
+        image_path = "Images/image_1.jpg"
         try:
             self.bg_image = ImageTk.PhotoImage(Image.open(image_path))
         except FileNotFoundError:
